@@ -1,0 +1,53 @@
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python cache & compiled bytecode
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database Files & Private Patient Records (Protected PHI/PII)
+backend/data/
+data/
+*.sqlite3
+*.db
+*.tmp
+
+# Generated hospital reports and synthetic datasets
+reports/
+datasets/
+
+# Secrets & Environment Configurations
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!frontend/.env.example
+
+# Frontend build outputs
+dist/
+frontend/dist/
+build/
+
+# Virtual environments
+**/.venv/
+**/venv/
+ENV/
+env/
+
+# Editor & OS artifacts
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+.streamlit/
+frontend/.streamlit/
+scratch/

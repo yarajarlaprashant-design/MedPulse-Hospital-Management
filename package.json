@@ -1,0 +1,23 @@
+{
+  "name": "hospital-patient-data-analysis-and-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack Web Application Using Python, Machine Learning, React, MongoDB and MySQL - Mohan Babu University",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "python backend/run.py",
+    "start:streamlit": "streamlit run streamlit_app/app.py",
+    "seed": "python backend/seed_data.py"
+  },
+  "keywords": [
+    "hospital-management",
+    "machine-learning",
+    "fastapi",
+    "react",
+    "mongodb",
+    "mysql",
+    "streamlit"
+  ],
+  "author": "B.Tech CS-IT, Mohan Babu University",
+  "license": "MIT"
+}
